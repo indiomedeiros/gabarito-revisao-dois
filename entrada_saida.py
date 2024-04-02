@@ -22,3 +22,11 @@ def multiplicar_numeros():
     print("O produto dos números é", multiplcacao)
 
 multiplicar_numeros()
+
+def dividir_por_dois():
+    print("======================= DIVISÃO POR DOIS =======================")
+    numero = float(input("Digite um numero: "))
+    divisao = numero/2
+    print("A divisão do ", numero, "por dois é: ", divisao )
+
+dividir_por_dois()

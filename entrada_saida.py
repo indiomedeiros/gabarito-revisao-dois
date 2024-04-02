@@ -30,3 +30,12 @@ def dividir_por_dois():
     print("A divisão do ", numero, "por dois é: ", divisao )
 
 dividir_por_dois()
+
+def calculcar_IMC():
+    print("======================= IMC =======================")
+    peso = float(input("Digite o seu peso em kg: "))
+    altura = float(input("Digite a sua altura em metros: "))
+    imc = peso/(altura * altura)
+    print("O seu IMC é:", imc )
+
+calculcar_IMC()

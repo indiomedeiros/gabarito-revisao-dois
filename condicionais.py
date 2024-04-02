@@ -19,3 +19,14 @@ def verifica_par():
         print("O número é ímpar!")
 
 verifica_par()
+
+def avaliar_nota():
+    print("======================= AVALIAR NOTA =======================")
+
+    nota = float(input("Qual foi a sua nota?"))
+    if(nota >= 7):
+          print("Aluno aprovado!")
+    elif(nota <= 6):
+          print("Aluno reprovado")
+
+avaliar_nota()
